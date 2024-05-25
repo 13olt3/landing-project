@@ -1,0 +1,32 @@
+body {
+    font-family: Roboto,  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.header {
+    
+    display: flex;
+    background-color: #1F2937;
+    min-height: 50px;
+    color: #F9FAF8;
+    padding: 10px 200px 10px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    gap: 15px;
+}
+
+.left-side {
+    
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #F9FAF8;
+}
