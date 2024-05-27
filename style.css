@@ -30,3 +30,41 @@ a:link, a:visited {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+.hero-banner {
+    display: flex;
+    background-color: #1F2937;
+    /* max-height: 400px; */
+    
+    padding: 50px 200px;
+}
+
+.title-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.body-text{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 50px 0 0;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 20px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+img {
+    border-radius: 3px;
+}
+
