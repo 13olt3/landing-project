@@ -1,6 +1,10 @@
 body {
     font-family: Roboto,  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 .header {
@@ -66,5 +70,34 @@ a:link, a:visited {
 }
 img {
     border-radius: 3px;
+}
+
+.content-img {
+    border-radius: 20px;
+}
+
+.content {
+    flex: 1;    
+}
+
+.contents {    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content-text {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.content-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 35px 0;
+    justify-content: center;
 }
 
